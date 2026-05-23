@@ -30,9 +30,9 @@ export default function Navbar() {
       scrolled ? 'py-2 glass border-b shadow-sm' : 'py-4 bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center group-hover:rotate-6 transition-transform">
-            <Shield className="text-white w-6 h-6" />
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center group-hover:scale-105 transition-transform overflow-hidden shadow-sm border border-border shrink-0">
+            <img src="/logo.png" alt="Orthocare Logo" className="w-full h-full object-contain p-0.5" />
           </div>
           <div className="flex flex-col leading-none">
             <span className="text-xl font-bold tracking-tight text-primary">Orthocare</span>

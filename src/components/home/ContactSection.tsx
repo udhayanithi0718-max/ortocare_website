@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export default function ContactSection() {
-  const mapEmbedUrl = "https://maps.google.com/maps?q=Orthocare%20Physiotherapy%20Hospital%20Kanchipuram&t=&z=15&ie=UTF8&iwloc=&output=embed";
+  const mapEmbedUrl =
+    "https://maps.google.com/maps?q=No3%2F1%20Astapujam%2C%20East%20mada%20street%2C%20Chinna%20Kanchipuram%2C%20Kanchipuram%2C%20Arappanacheri%2C%20Tamil%20Nadu%20631501%2C%20India&t=&z=15&ie=UTF8&iwloc=&output=embed";
 
   return (
     <section id="contact" className="py-24 bg-background">
@@ -34,9 +35,9 @@ export default function ContactSection() {
                   <div>
                     <p className="font-bold">Our Location</p>
                     <p className="text-muted-foreground leading-relaxed">
-                      Orthocare Physiotherapy Hospital,<br />
-                      No. 45, Hospital Road, Near GH,<br />
-                      Kanchipuram, Tamil Nadu - 631502
+                      No3/1 Astapujam, East mada street,<br />
+                      Chinna Kanchipuram, Kanchipuram,<br />
+                      Arappanacheri, Tamil Nadu 631501, India
                     </p>
                   </div>
                 </div>

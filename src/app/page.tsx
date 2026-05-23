@@ -23,9 +23,14 @@ export default function Home() {
       
       <footer className="py-12 border-t border-border bg-background">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex flex-col items-center md:items-start leading-none">
-            <span className="text-xl font-bold tracking-tight text-primary">Orthocare</span>
-            <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-semibold">Physiotherapy</span>
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center overflow-hidden shadow-sm border border-border shrink-0">
+              <img src="/logo.png" alt="Orthocare Logo" className="w-full h-full object-contain p-0.5" />
+            </div>
+            <div className="flex flex-col leading-none">
+              <span className="text-xl font-bold tracking-tight text-primary">Orthocare</span>
+              <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-semibold">Physiotherapy</span>
+            </div>
           </div>
           <p className="text-sm text-muted-foreground">
             © 2024 Orthocare Physiotherapy Hospital. All rights reserved.
